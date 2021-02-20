@@ -1,1 +1,3 @@
 # Gonit-Korbo-Joy-2nd-Edition-by-Tamim-Shahriar-Subeen
+<a style="text-decoration: none;" href="http://dimik.pub/book/229/gonit-kobo-joy-by-tamim-shahriar-subeen-tahmid-rafi" target="_blank">গণিত করব জয় (দ্বিতীয় সংস্করণ)</a> by <a style="text-decoration: none;" href="https://www.rokomari.com/book/author/4207/tamim-shahriar-subeen" target="_blank">তামিম শাহরিয়ার সুবিন</a> and <a style="text-decoration: none;" href="https://www.rokomari.com/book/author/25000/tahmid-rafi" target="_blank">তাহমিদ রাফি</a>. All examples in JAVA.
+<p><img src="https://raw.githubusercontent.com/theanasuddin/Gonit-Korbo-Joy-2nd-Edition-by-Tamim-Shahriar-Subeen/main/cover.png" alt="book cover"></p>
