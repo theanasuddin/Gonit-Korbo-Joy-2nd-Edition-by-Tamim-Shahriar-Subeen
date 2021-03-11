@@ -1,5 +1,7 @@
 package gonitKorboJoy;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class ProblemPage58 {
@@ -8,6 +10,7 @@ public class ProblemPage58 {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		int n;
+		ArrayList<Integer> factors = new ArrayList<Integer>();
 
 		while (true) {
 			System.out.println("Please enter a positive integer. Enter 0 to quit: ");
@@ -22,15 +25,18 @@ public class ProblemPage58 {
 				continue;
 			}
 
-			System.out.printf("Factors of %d :", n);
-			for (int i = 1; i <= n; i++) {
+			factors.clear();
+			factors.add(1);
+			factors.add(n);
+
+			for (int i = 2; i <= n / 2; i++) {
 				if (n % i == 0) {
-					System.out.printf(" %d", i);
+					factors.add(i);
 				}
 			}
-			System.out.printf("\n");
+			Collections.sort(factors);
+			System.out.println("Factors of " + n + ": " + factors);
 		}
 		scan.close();
 	}
-
 }
